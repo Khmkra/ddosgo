@@ -1420,7 +1420,7 @@ func main() {
 	flag.Var(&headers, "header", "Add headers to the request. Could be used multiple times")
 	flag.Parse()
 
-	t := os.Getenv("HULKMAXPROCS")
+	t := os.Getenv("HULK")
 	maxproc, err := strconv.Atoi(t)
 	if err != nil {
 		maxproc = 10000000
