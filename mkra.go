@@ -1,7 +1,7 @@
 package main
 
 /*
- Fixed By XinnClay XCDDOS
+ mkra
 */
 
 import (
